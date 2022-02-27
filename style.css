@@ -1,0 +1,463 @@
+body {
+    font-family: Arial;
+    background-image: url(cv-background/wektorowy-binarnego-kodu-zmroku-t-o-duzi-dane-i-programowanie-sieka-decryption-utajnianie-komputer-liczby-cyfrowanie-100965914.jpg);
+    font-size: 14px;
+    padding: 40px 0;
+    
+}
+
+.body-size {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    box-shadow: 0px 0px 20px black;
+    margin: 0 auto;
+    width: 960px;
+}
+  
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 30px 0 30px;
+    background-color: grey;
+   
+}
+
+main {
+    display: flex;
+    padding: 0 20px 20px 30px;
+    background-color: grey;
+    
+}
+
+.my-picture img {
+    width: 200px;
+    height: 210px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 18px;
+    color: cornflowerblue;
+}
+
+.title {
+    text-align: center;
+    color: darkgrey;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.text {
+    color: black;
+    text-align: justify;
+}
+
+.language {
+    text-align: center;
+    margin-left: 20px;
+}
+
+.language-pl {
+    text-decoration: none;
+}
+
+.polish {
+    color: whitesmoke;
+    background-color: rgb(197, 32, 32);
+    border: 1px solid black;
+    border-radius: 50% 10%;
+    padding: 7px;
+    font-size: 10px;
+    margin-bottom: -5;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.polish:hover {
+    background-color: white;
+    color: red;
+    border-radius: 50% 10%;
+    padding: 7px;
+    border: 1px solid red;
+}
+.polish:focus {
+    background-color: white;
+    color: red;
+    border-radius: 50% 10%;
+    padding: 7px;
+    border: 1px solid;
+    outline: none;
+}
+
+.polish:active {
+    text-decoration: underline;
+}
+
+.language-en {
+    text-decoration: none;
+}
+
+.english {
+    color: whitesmoke;
+    background-color: slateblue;
+    border: 1px solid black;
+    border-radius: 50% 10%;
+    padding: 7px;
+    font-size: 10px;
+    text-decoration: none;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.english:hover {
+    background-color: white;
+    color: slateblue;
+    border-radius: 50% 10%;
+    padding: 7px;
+    border: 1px solid slateblue;
+}
+.english:focus {
+    background-color: white;
+    color: red;
+    border-radius: 50% 10%;
+    padding: 7px;
+    border: 1px solid slateblue;
+    outline: none;
+}
+
+.download-cv {
+    text-decoration: none;
+}
+
+.cv-pdf {
+    color: whitesmoke;
+    background-color: forestgreen;
+    border: 1px solid black;
+    border-radius: 50% 10%;
+    padding: 7px;
+    font-size: 10px;
+    text-decoration: none;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.cv-pdf:hover {
+    background-color: white;
+    color: forestgreen;
+    border-radius: 50% 10%;
+    padding: 7px;
+    border: 1px solid forestgreen;
+}
+.cv-pdf:focus {
+    background-color: white;
+    color: forestgreen;
+    border-radius: 50% 10%;
+    padding: 7px;
+    border: 1px solid forestgreen;
+    outline: none;
+}
+
+.section-one {
+    width: 290px;
+    padding-left: 5px;
+}
+
+.address img {
+    width: 16px;
+    height: 16px;
+    background-color: slateblue;
+    border-radius: 50%;
+    padding: 5px;
+    vertical-align: -6px;
+}
+
+.address {
+    list-style: none;
+    padding: 0;
+}
+
+.address li {
+    margin-bottom: 10px;
+    color: black;
+    
+}
+
+.phone-numer {
+    text-decoration: none;
+    color: black;
+    border-radius: 25%;
+    padding: 1px 4px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.phone-numer:hover {
+    background-color: slateblue;
+    color: whitesmoke;
+    border-radius: 25%;
+    padding: 1px 4px;
+}
+
+.email-link {
+    text-decoration: none;
+    color: black;
+    border-radius: 10%;
+    padding: 1px 4px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.email-link:hover {
+    background-color: slateblue;
+    color: whitesmoke;
+    border-radius: 10%;
+    padding: 1px 4px;
+}
+.email-link:focus {
+    background-color: slateblue;
+    color: whitesmoke;
+    border-radius: 10%;
+    padding: 1px 4px;
+}
+
+.email-link:active {
+    text-decoration: underline;
+}
+
+.github-link {
+    text-decoration: none;
+    color: black;
+    border-radius: 25%;
+    padding: 1px 4px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.github-link:hover {
+    background-color: slateblue;
+    color: whitesmoke;
+    border-radius: 25%;
+    padding: 1px 4px;
+}
+
+.github-link:active {
+    text-decoration: underline;
+}
+
+.linkedin-link {
+    text-decoration: none;
+    color: black;
+    border-radius: 25%;
+    padding: 1px 4px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.linkedin-link:hover {
+    background-color: slateblue;
+    color: whitesmoke;
+    border-radius: 25%;
+    padding: 1px 4px;
+}
+
+.linkedin-link:focus {
+    background-color: slateblue;
+    color: whitesmoke;
+    border-radius: 25%;
+    padding: 1px 4px;
+}
+
+.linkedin-link:active {
+    text-decoration: underline;
+}
+
+
+.section-two {
+    margin-left: 10px;
+    align-items: stretch;
+    background-color: white;
+}
+
+.section-two h2 {
+    text-align: center;
+}
+
+.section-two li {
+    margin-left: -10px;
+    margin-right: 10px;
+}
+
+.portfolio {
+    list-style: none;
+}
+
+.portfolio li {
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.portfolio img {
+    width: 50px;
+    height: 50px;
+    vertical-align: -30px;
+    margin-right: 5px;
+    border: 0 solid;
+    padding: 5px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.make-decision-portfolio {
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+
+.make-decision-portfolio:hover {
+    transform: scale(4);
+    border: none;
+}
+
+.portfolio-link {
+    border-radius: 26px;
+    padding: 0 2px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.portfolio-link:hover {
+    background-color: slateblue;
+    color: whitesmoke;
+}
+
+.portfolio-link:focus {
+    background-color: slateblue;
+    color: whitesmoke;
+}
+
+.accommodation-portfolio {
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+
+.accommodation-portfolio:hover {
+    background-color: slateblue;
+    transform: scale(4);
+}
+
+.music-player-portfolio {
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+
+.music-player-portfolio:hover {
+    background-color: slateblue;
+    transform: scale(4);
+}
+
+.my-side-portfolio {
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+
+.my-side-portfolio:hover {
+    background-color: slateblue;
+    transform: scale(4);
+}
+
+.learn-portfolio {
+    text-align: right;
+    margin-left: 70px;
+}
+
+.learn-portfolio li:hover {
+    list-style: circle;
+}
+
+
+
+.experience li {
+    margin-bottom: 5px;
+}
+
+.certificate-link {
+    border-radius: 20px;
+    padding: 0 2px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.certificate-link:hover {
+    background-color: slateblue;
+    color: whitesmoke;
+}
+
+.certificate-link:focus {
+    background-color: slateblue;
+    color: whitesmoke;
+}
+
+.certificate-link:active {
+    text-decoration: underline;
+}
+
+footer ul {
+    margin-left: -20px;
+}
+
+.premiere-link {
+    border-radius: 20px;
+    padding: 0 2px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.premiere-link:hover {
+    background-color: slateblue;
+    color: whitesmoke;
+}
+
+.premiere-link:focus {
+    background-color: slateblue;
+    color: whitesmoke;
+}
+
+.premiere-link:active {
+    text-decoration: underline;
+}
+
+.dancer-link {
+    border-radius: 20px;
+    padding: 0 2px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.dancer-link:hover {
+    background-color: slateblue;
+    color: whitesmoke;
+}
+
+.dancer-link:focus {
+    background-color: slateblue;
+    color: whitesmoke;
+}
+
+.dancer-link:active {
+    text-decoration: underline;
+}
+
+footer ul {
+    margin-left: -20px;
+}
+
+.clause {
+
+    list-style: none;
+    color:grey;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
